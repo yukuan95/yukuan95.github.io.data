@@ -1,10 +1,29 @@
 {
-  "count": "0",
-  "countList": "",
-  "logError": "\n{\"level\":\"error\",\"time\":\"2023-09-23 16:11:44.894 +08\",\"from\":\"GitPages\",\"message\":\"Error: ENOENT: no such file or directory, open '/root/work/yukuan95.gitee.com.data/data/dan.json'\"}\n{\"level\":\"error\",\"time\":\"2023-09-23 16:16:05.389 +08\",\"from\":\"GitPages\",\"message\":\"Error: ENOENT: no such file or directory, open '/root/work/yukuan95.gitee.com.data/data/dan.json'\"}\n{\"level\":\"error\",\"time\":\"2023-09-23 16:25:27.401 +08\",\"from\":\"GitPages\",\"message\":\"error: src refspec main does not match any\\nerror: failed to push some refs to 'gitee.com:yukuan95/yukuan95.gitee.com.data.git'\"}\n",
+  "count": "4",
+  "countList": "node  /root/work/ts-test-2/javascript/src/Proxy.js\nnode  /root/work/ts-test-2/javascript/src/Crontab.js\nnode  /root/work/ts-test-2/javascript/src/PriceGen.js\nnode  /root/work/ts-test-2/javascript/src/Main.js",
+  "logError": [
+    {
+      "level": "error",
+      "time": "2023-09-23 16:11:44.894 +08",
+      "from": "GitPages",
+      "message": "Error: ENOENT: no such file or directory, open '/root/work/yukuan95.gitee.com.data/data/dan.json'"
+    },
+    {
+      "level": "error",
+      "time": "2023-09-23 16:16:05.389 +08",
+      "from": "GitPages",
+      "message": "Error: ENOENT: no such file or directory, open '/root/work/yukuan95.gitee.com.data/data/dan.json'"
+    },
+    {
+      "level": "error",
+      "time": "2023-09-23 16:25:27.401 +08",
+      "from": "GitPages",
+      "message": "error: src refspec main does not match any\nerror: failed to push some refs to 'gitee.com:yukuan95/yukuan95.gitee.com.data.git'"
+    }
+  ],
   "timeData": {
-    "time": "2023-09-23 16:46:51.023 +08",
+    "time": "2023-09-23 17:02:06.016 +08",
     "startTime": "2023-08-31 05:08:00.000 +08",
-    "price": 26563.771
+    "price": 26562.758
   }
 }
