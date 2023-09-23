@@ -1,4 +1,0 @@
-node  /root/work/ts-test-2/javascript/src/Proxy.js
-node  /root/work/ts-test-2/javascript/src/Crontab.js
-node  /root/work/ts-test-2/javascript/src/PriceGen.js
-node  /root/work/ts-test-2/javascript/src/Main.js
