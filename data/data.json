@@ -6,10 +6,17 @@
     "node  /root/work/ts-test-2/javascript/src/PriceGen.js",
     "node  /root/work/ts-test-2/javascript/src/Main.js"
   ],
-  "logError": [],
+  "logError": [
+    {
+      "level": "error",
+      "time": "2023-09-21 19:24:31.449 +08",
+      "from": "index",
+      "message": "SyntaxError: Unexpected end of JSON input at JSON.parse (<anonymous>)"
+    }
+  ],
   "timeData": {
-    "time": "2023-09-26 00:00:51.015 +08",
+    "time": "2023-09-26 00:10:45.012 +08",
     "startTime": "2023-08-31 05:08:00.000 +08",
-    "price": 26166.245
+    "price": 26175.531
   }
 }
