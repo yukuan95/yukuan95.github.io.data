@@ -6,17 +6,10 @@
     "node  /root/work/ts-test-2/javascript/src/PriceGen.js",
     "node  /root/work/ts-test-2/javascript/src/Main.js"
   ],
-  "logError": [
-    {
-      "level": "error",
-      "time": "2023-10-14 17:55:44.818 +08",
-      "from": "GitPages",
-      "message": "<--- Last few GCs --->\n\n[634964:0x5d47780]   117172 ms: Scavenge (reduce) 868.0 (882.2) -> 868.0 (883.2) MB, 65.7 / 0.0 ms  (average mu = 0.276, current mu = 0.343) allocation failure; \n[634964:0x5d47780]   117416 ms: Scavenge (reduce) 868.9 (883.2) -> 868.9 (884.5) MB, 53.6 / 0.0 ms  (average mu = 0.276, current mu = 0.343) allocation failure; \n[634964:0x5d47780]   117688 ms: Scavenge (reduce) 870.1 (884.5) -> 870.0 (885.5) MB, 39.7 / 0.0 ms  (average mu = 0.276, current mu = 0.343) allocation failure; \n\n\n<--- JS stacktrace --->\n\nFATAL ERROR: Ineffective mark-compacts near heap limit Allocation failed - JavaScript heap out of memory\n 1: 0xb6b850 node::Abort() [node]\n 2: 0xa806a6  [node]\n 3: 0xd52140 v8::Utils::ReportOOMFailure(v8::internal::Isolate*, char const*, bool) [node]\n 4: 0xd524e7 v8::internal::V8::FatalProcessOutOfMemory(v8::internal::Isolate*, char const*, bool) [node]\n 5: 0xf2fbe5  [node]\n 6: 0xf30ae8 v8::internal::Heap::RecomputeLimits(v8::internal::GarbageCollector) [node]\n 7: 0xf40ff3  [node]\n 8: 0xf41e68 v8::internal::Heap::CollectGarbage(v8::internal::AllocationSpace, v8::internal::GarbageCollectionReason, v8::GCCallbackFlags) [node]\n 9: 0xf45035 v8::internal::Heap::HandleGCRequest() [node]\n10: 0xec318f v8::internal::StackGuard::HandleInterrupts() [node]\n11: 0x10403ac v8::internal::JsonStringifier::Result v8::internal::JsonStringifier::Serialize_<true>(v8::internal::Handle<v8::internal::Object>, bool, v8::internal::Handle<v8::internal::Object>) [node]\n12: 0x104466f v8::internal::JsonStringifier::Result v8::internal::JsonStringifier::Serialize_<false>(v8::internal::Handle<v8::internal::Object>, bool, v8::internal::Handle<v8::internal::Object>) [node]\n13: 0x1044323 v8::internal::JsonStringifier::Result v8::internal::JsonStringifier::Serialize_<false>(v8::internal::Handle<v8::internal::Object>, bool, v8::internal::Handle<v8::internal::Object>) [node]\n14: 0x10453bf v8::internal::JsonStringify(v8::internal::Isolate*, v8::internal::Handle<v8::internal::Object>, v8::internal::Handle<v8::internal::Object>, v8::internal::Handle<v8::internal::Object>) [node]\n15: 0xdd80f7 v8::internal::Builtin_JsonStringify(int, unsigned long*, v8::internal::Isolate*) [node]\n16: 0x16ef579  [node]\nAborted (core dumped)"
-    }
-  ],
+  "logError": [],
   "timeData": {
-    "time": "2023-10-14 18:01:09.020 +08",
+    "time": "2023-10-14 18:09:09.013 +08",
     "startTime": "2023-10-09 21:03:00.019 +08",
-    "price": 26859.939
+    "price": 26860.168
   }
 }
