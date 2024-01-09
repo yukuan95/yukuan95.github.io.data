@@ -6,10 +6,23 @@
     "node  /root/work/ts-test-2/javascript/src/PriceGen.js",
     "node  /root/work/ts-test-2/javascript/src/Main.js"
   ],
-  "logError": [],
+  "logError": [
+    {
+      "level": "error",
+      "time": "2024-01-09 21:00:33.807 +08",
+      "from": "GitPages",
+      "message": "remote: fatal error in commit_refs        \nTo github.com:yukuan95/yukuan95.github.io.data.git\n ! [remote rejected] main -> main (failure)\nerror: failed to push some refs to 'github.com:yukuan95/yukuan95.github.io.data.git'"
+    },
+    {
+      "level": "error",
+      "time": "2024-01-09 21:00:33.818 +08",
+      "from": "Crontab",
+      "message": "GitPages error"
+    }
+  ],
   "timeData": {
-    "time": "2024-01-09 21:00:24.012 +08",
+    "time": "2024-01-10 00:00:21.018 +08",
     "startTime": "2023-12-18 08:16:00.019 +08",
-    "price": 46619.6
+    "price": 46740.146
   }
 }
